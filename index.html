@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>218180435 - Jem</title>
+    <script src = "asset/js/jQuery.js"></script>
+    <script src = "asset/js/jQueryUI.js"></script>
+    <script src = "asset/js/game.js"></script>
+    <link rel="stylesheet" type="text/css" href="asset/css/style.css">
+    <link rel="stylesheet" type="text/css" href="asset/css/jquery-ui.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div id="status" class="status"></div>
+            <div class="cursor" id="scythe"></div>
+            <div class="cursor" id="hoe"></div>
+            <div class="cursor" id="shovel"></div>
+            <div class="cursor" id="water"></div>
+            <div class="clear">CLEAR</div>
+            <div class="map">
+            </div>
+        </div>
+        <div class="right">
+            <div class="menu" style="margin-left: 80px" id="btnBuy">BUY</div>
+            <div class="menu" id="btnBag">BAG</div>
+            <div class="menu" id="btnClose">CLOSE</div>
+            <div class="isimenu">
+                <div id="tabs" style="display:none;">
+                    <ul>
+                        <li><a href="#tabs-1">Spring Seeds</a></li>
+                        <li><a href="#tabs-2">Summer Seeds</a></li>
+                    </ul>
+                    <div id="tabs-1">
+                        <div id="accordion">
+                            <h3>Turnip</h3>
+                            <div>
+                                <p>
+                                    Turnip is usually grown as an annual on spring season and harvested after one growing season. Can be sold worth of 100G.
+                                </p>
+                                <input id="spinner-1" name="value" placeholder="Num of Turnip"> x 50 =
+                                <span id="nturnip">0</span>&nbsp;
+                                <button class="ui-button ui-widget ui-corner-all" id="buyTurnip">Buy</button>
+                            </div>
+                            <h3>Potato</h3>
+                            <div>
+                                <p>
+                                    Potato is usually grown as an annual on spring season and harvested after one growing season. Can be sold worth of 150G.
+                                </p>
+                                <input id="spinner-2" name="value" placeholder="Num of Potato"> x 100 =
+                                <span id="npotato">0</span>&nbsp;
+                                <button class="ui-button ui-widget ui-corner-all" id="buyPotato">Buy</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tabs-2">
+                        <div id="accordion-2">
+                            <h3>Corn</h3>
+                            <div>
+                                <p>
+                                    Corn is usually grown as an annual on summer season and harvested after two growing season. Can be sold worth of 200G.
+                                </p>
+                                <input id="spinner-3" name="value" placeholder="Num of Corn"> x 125 =
+                                <span id="ncorn">0</span>&nbsp;
+                                <button class="ui-button ui-widget ui-corner-all" id="buyCorn">Buy</button>
+                            </div>
+                            <h3>Tomato</h3>
+                            <div>
+                                <p>
+                                    Tomato is usually grown as an annual on summer season and harvested after two growing season. Can be sold worth of 300G.
+                                </p>
+                                <input id="spinner-4" name="value" placeholder="Num of Tomato"> x 150 =
+                                <span id="ntomato">0</span>&nbsp;
+                                <button class="ui-button ui-widget ui-corner-all" id="buyTomato">Buy</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bag">
+                    <span>BAG</span>
+                    <button class="ui-button ui-widget ui-corner-all" id="btnPlant">Plant</button>
+                    <br/>
+                    <ul id="sortable">
+                        <li id="bturnip" amount="0" class="ui-state-default">turnip x 0</li>
+                        <li id="bpotato" amount="0" class="ui-state-default">potato x 0</li>
+                        <li id="bcorn" amount="0" class="ui-state-default">corn x 0</li>
+                        <li id="btomato" amount="0" class="ui-state-default">tomato x 0</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

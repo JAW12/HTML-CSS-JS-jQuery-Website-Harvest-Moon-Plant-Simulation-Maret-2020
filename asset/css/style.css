@@ -1,0 +1,225 @@
+
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.left, .right{
+    float: left;
+}
+
+.left{
+    width: 720px;
+}
+
+.right{
+    width: 50%;
+}
+
+.menu{
+    height: 80px;
+    width: 125px;
+    background-color:rgb(254,99,71);
+    float: left;
+    color:black;
+    font-size: 14pt;
+    line-height: 80px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.isimenu{
+    margin-top: 100px;
+    clear:both;
+}
+
+.bag{
+    display: none;
+    width: 600px;
+    height: 450px;
+    background-color: rgb(135, 206, 250);
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding-top: 40px;
+}
+
+.bag span, .bag button{
+    font-size: 20pt;
+    color: black;
+}
+
+.bag span{
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+#sortable{
+    margin: 0 3px 3px 3px;
+    padding: 20px;
+    padding-left: 1.5em; 
+    list-style-type: none;
+    width: 520px;
+    line-height: 25px;
+}
+
+#sortable li { 
+    margin: 0 3px 3px 3px; 
+    padding: 20px; 
+    padding-left: 1.5em; 
+    font-size: 18pt; 
+    height: 25px; 
+}
+
+#btnPlant{
+    margin-left: 350px;
+}
+
+.status, .cursor, .clear, .menu{
+    border: 1px solid black;
+    margin-right: 10px;
+    height: 80px;
+}
+
+.status{
+    width: 230px;
+    background-color: rgb(245, 245, 221);
+    float: left;
+    color: black;
+    padding: 15px;
+    line-height: 25px;
+    font-size: 16pt;
+    box-sizing: border-box;
+}
+
+.cursor, .clear{
+    background-color: rgb(144, 237, 145);
+    border-radius: 5px;
+    width: 80px;
+    float: left;
+}
+
+#hoe{
+    background: rgb(144, 237, 145) url('../img/hoe.png') no-repeat center center;
+}
+
+#scythe{
+    background: rgb(144, 237, 145) url('../img/scythe.png') no-repeat center center;
+}
+
+#shovel{
+    background: rgb(144, 237, 145) url('../img/shovel.png') no-repeat center center;
+}
+
+#water{
+    background: rgb(144, 237, 145) url('../img/watering-can.png') no-repeat center center;
+}
+
+.clear{
+    line-height: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 14pt;
+}
+
+.map{
+    margin-top: 100px;
+    width: 700px;
+    height: 700px;
+    background-color: bisque !important;
+}
+
+.tile{
+    float: left;
+}
+
+.isi{
+    width: 70px;
+    height: 70px;
+    background-size: cover !important;
+}
+
+.kosong{
+    display: block !important;
+}
+
+.hoed{
+    background-color: burlywood !important;
+    display: none ;
+    border-radius: 5px;
+}
+
+.bush{
+    background: url('../img/bush.png') no-repeat center center;
+    display: none;
+}
+
+.corn1{
+    background: url('../img/corn1.png') no-repeat center center;
+}
+
+.corn1w{
+    background: url('../img/corn1_w.png') no-repeat center center;
+}
+
+.corn2{
+    background: url('../img/corn2.png') no-repeat center center;
+}
+
+.corn2w{
+    background: url('../img/corn2_w.png') no-repeat center center;
+}
+
+.potato1{
+    background: url('../img/potato1.png') no-repeat center center;
+}
+
+.potato1w{
+    background: url('../img/potato1_w.png') no-repeat center center;
+}
+
+.ripecorn{
+    background: url('../img/ripe-corn.png') no-repeat center center;
+}
+
+.ripepotato{
+    background: url('../img/ripe-potato.png') no-repeat center center;
+}
+
+.ripetomato{
+    background: url('../img/ripe-tomato.png') no-repeat center center;
+}
+
+.ripeturnip{
+    background: url('../img/ripe-turnip.png') no-repeat center center;
+}
+
+.seed{
+    background: url('../img/seed.png') no-repeat center center;
+}
+
+.seedw{
+    background: url('../img/seed_w.png') no-repeat center center;
+}
+
+.tomato1{
+    background: url('../img/tomato1.png') no-repeat center center;
+}
+
+.tomato1w{
+    background: url('../img/tomato1_w.png') no-repeat center center;
+}
+
+.tomato2{
+    background: url('../img/tomato2.png') no-repeat center center;
+}
+
+.tomato2w{
+    background: url('../img/tomato2_w.png') no-repeat center center;
+}
+
+.turnip1{
+    background: url('../img/turnip1.png') no-repeat center center;
+}
+
+.turnip1w{
+    background: url('../img/turnip1_w.png') no-repeat center center;
+}
